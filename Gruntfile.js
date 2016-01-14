@@ -1,3 +1,5 @@
+#!/usr/bin/env nodejs
+
 module.exports = function(grunt) {
 
   grunt.initConfig({
