@@ -21,13 +21,30 @@
     </head>
     <body>
       <div id="skrollr-body">
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+        <div class="modal fade modal-video" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <div>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/yX5NrgfFF7A" frameborder="0" allowfullscreen></iframe>
+                  <h3><center>31 de Enero - Trailer<br>SABOR GANDAYA</center></h3>
+                  <iframe src="https://player.vimeo.com/video/153729237" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="soundModal" tabindex="-1" role="dialog" aria-labelledby="#soundModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div>
+                  <h3>SABOR GANDAYA - 31 DE ENERO</h3>
+                  <div class="">
+                    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244798033&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -68,9 +85,12 @@
             </div>
 
             <div class="hero-icons">
-              <img src="../assets/images/spotify/Spotify_Icon_CMYK_Green.png" alt="" />
-              <img src="../assets/images/apple/apple.svg" alt="" />
-              <img src="../assets/images/google/google-play-badge.png" alt="" />
+              <!-- img src="assets/images/spotify/Spotify_Icon_CMYK_Green.png" alt="" /> -->
+              <a href="https://itunes.apple.com/us/album/31-de-enero-single/id1084857202" target="_blank"><img src="../assets/images/apple/itunes-logo.png" alt="" /></a>
+              <!--
+              <img src="assets/images/google/google-play-badge.png" alt="" />
+              <a href="#" data-toggle="modal" data-target="#soundModal"><img src="../assets/images/soundcloud.png" alt="" /></a>
+              -->
             </div>
 
             <!-- Controls -->
@@ -134,14 +154,13 @@
                       <button type="button" class="btn btn-xs">Video</button>
                     </div>
                     <div class="title">
-                      <!-- a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/watch?v=yX5NrgfFF7A" -->
-                      <a href="#">
-                        <b>31 de Enero Trailer</b> - <span style="font-weight:normal;">Fecha de Estreno 31 de Enero</span>
+                      <a href="#" data-toggle="modal" data-target="#videoModal">
+                        <b>31 de Enero Trailer</b> - <span style="font-weight:normal;">Ver Ahora</span>
                       </a>
                     </div>
                     <div class="options">
                       <a href="#"><i class="icon-newspaper"></i></a>
-                      <a href="#"><span>Muy Pronto</span></a>
+                      <a href="#"><span>Ver ahora</span></a>
                     </div>
                   </div>
                 </div>
@@ -173,13 +192,13 @@
                       <button type="button" class="btn btn-xs">Cancion</button>
                     </div>
                     <div class="title">
-                      <a href="">
-                        <b>31 de Enero</b> - <span style="font-weight:normal;">Fecha de estreno: 31 de Enero</span>
+                      <a href="#" data-toggle="modal" data-target="#soundModal">
+                        <b>31 de Enero</b> - <span style="font-weight:normal;">Escucha la canciona ahora en SoundCloud</span>
                       </a>
                     </div>
                     <div class="options">
-                      <a href="#"><i class="icon-newspaper"></i></a>
-                      <a href="#"><span>Muy Pronto</span></a>
+                      <a href="#" data-toggle="modal" data-target="#soundModal"><i class="icon-newspaper"></i></a>
+                      <a href="#" data-toggle="modal" data-target="#soundModal"><span>Escuchar ahora</span></a>
                     </div>
                   </div>
                 </div>
@@ -209,7 +228,7 @@
                       <button type="button" class="btn btn-xs">Noticia</button>
                     </div>
                     <div class="title">
-                      <a href="#">Lanzamiento del Album y video - <span style="font-weight:normal;">Mediados de Marzo</span></a>
+                      <a href="#">Lanzamiento del Album y video - <span style="font-weight:normal;">Primavera 2016</span></a>
                     </div>
                     <div class="options">
                       <a href="#"><i class="icon-newspaper"></i></a>
